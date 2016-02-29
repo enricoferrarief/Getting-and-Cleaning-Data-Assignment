@@ -104,3 +104,4 @@ std(): Standard deviation
 68 fBodyBodyGyroJerkMag-std()
 69 activityLabel: activity label such as LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS
 
+
