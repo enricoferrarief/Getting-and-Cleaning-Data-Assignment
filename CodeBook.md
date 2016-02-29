@@ -157,8 +157,8 @@ X_test.txt
 subject_test.txt
 The script then performs the following changes to the dataset:
 
-Merges the training and the test sets to create one data set. -> First y, X and subject are binded into one single dataframe and then the test and train dataset are merged together
-Extracts only the measurements on the mean and standard deviation for each measurement. -> Using a regular expression, the labels containing the strings we need are indexed
-Uses descriptive activity names to name the activities in the data set. -> The activity names are then merged by using the activity ids as keys
-Appropriately labels the data set with descriptive variable names. -> The labels are assigned to the dataset as column names
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. -> The data is grouped by subject and activity and then all column means are calculated
+1. Merges the training and the test sets to create one data set. -> First y, X and subject are binded into one single dataframe and then the test and train dataset are merged together
+2. Extracts only the measurements on the mean and standard deviation for each measurement. -> Using a regular expression, the labels containing the strings we need are indexed
+3. Uses descriptive activity names to name the activities in the data set. -> The activity names are then merged by using the activity ids as keys
+4. Appropriately labels the data set with descriptive variable names. -> The labels are assigned to the dataset as column names
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. -> The data is grouped by subject and activity and then all column means are calculated
